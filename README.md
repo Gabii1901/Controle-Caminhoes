@@ -1,6 +1,6 @@
 # Sistema de Controle de EPIs e Caminhões - GABRIELA MENDES DEMOSSI
 
-Sistema web desenvolvido em PHP utilizando o framework CodeIgniter, com banco de dados MySQL, para controle de entrega de EPIs e gerenciamento da frota de caminhões das empresas. Inclui login com validação de primeiro acesso.
+Sistema web desenvolvido em PHP utilizando o framework CodeIgniter, com banco de dados MySQL, para controle de entrega de EPIs e gerenciamento da frota de caminhões das empresas.
 
 ---
 
