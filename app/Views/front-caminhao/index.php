@@ -3,20 +3,69 @@
 <head>
     <title>Lista de Caminhões</title>
     <style>
-        body { font-family: Arial; background: #111; color: #eee; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #555; padding: 10px; text-align: left; }
-        th { background-color: #222; }
-        a, button { background: #90ee90; color: black; padding: 5px 10px; text-decoration: none; border: none; cursor: pointer; margin-right: 5px; }
+        body { 
+            font-family: Arial; 
+            background: #111; 
+            color: #eee; 
+        }
+
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 20px; 
+        }
+
+        th, td { 
+            border: 1px solid #555; 
+            padding: 10px; 
+            text-align: left; 
+        }
+
+        th { 
+            background-color: #222; 
+        }
+
+        a, button { 
+            background: #90ee90; 
+            color: black; 
+            padding: 5px 10px; 
+            text-decoration: none; 
+            border: none; 
+            cursor: pointer; 
+            margin-right: 5px; 
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a.voltar {
+            background: red;
+            color: white;
+        }
+
+        a:hover, button:hover {
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
     <h1>Controle de Caminhões</h1>
+
     <a href="<?= base_url('caminhao/create') ?>">Novo Caminhão</a>
+    <a class="voltar" href="<?= base_url('painel') ?>">Voltar</a>
+
     <table>
         <tr>
-            <th>Veículo</th><th>Placa</th><th>Cor</th><th>CRLV</th><th>ANTT</th><th>KM</th><th>Seguro</th><th>Motorista</th><th>Ações</th>
+            <th>Veículo</th>
+            <th>Placa</th>
+            <th>Cor</th>
+            <th>CRLV</th>
+            <th>ANTT</th>
+            <th>KM</th>
+            <th>Seguro</th>
+            <th>Motorista</th>
+            <th>Ações</th>
         </tr>
+
         <?php foreach ($caminhoes as $c): ?>
         <tr>
             <td><?= esc($c['nome_veiculo']) ?></td>
