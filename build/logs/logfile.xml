@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CaminhaoTest" file="C:\xampp\htdocs\controle-caminhoes\tests\unit\CaminhaoTest.php" tests="1" assertions="4" errors="0" failures="0" skipped="0" time="0.015222">
+    <testcase name="testInserirBuscarExcluirCaminhao" file="C:\xampp\htdocs\controle-caminhoes\tests\unit\CaminhaoTest.php" line="41" class="CaminhaoTest" classname="CaminhaoTest" assertions="4" time="0.015222"/>
+  </testsuite>
+</testsuites>

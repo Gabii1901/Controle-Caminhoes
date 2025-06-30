@@ -1,0 +1,1 @@
+{"version":1,"defects":{"CaminhaoTest::testInserirBuscarExcluirCaminhao":8,"CaminhaoFuncionalidadeTest::testNaoPermitePlacaDuplicada":8},"times":{"CaminhaoTest::testInserirBuscarExcluirCaminhao":0.009,"CaminhaoFuncionalidadeTest::testInserirCaminhaoComSucesso":0.008,"CaminhaoFuncionalidadeTest::testNaoPermitePlacaDuplicada":0.002}}
