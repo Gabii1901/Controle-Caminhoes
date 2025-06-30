@@ -62,6 +62,21 @@ Sistema web desenvolvido em PHP utilizando o framework CodeIgniter 4, com banco 
 
 ---
 
+## 🏃‍♀️ Como Rodar Localmente
+
+1️⃣ **Clone o repositório**
+git clone https://github.com/seuusuario/seurepositorio.git
+cd seurepositorio
+
+**Rode o migrations para criar o banco de dados e as tabelas**
+php spark migrate
+
+**Inicie o Servidor Local**
+php spark serve
+
+**Acesse**
+http://localhost:8080/login
+
 ## 📜 Observação
 Atualmente, o sistema está 100% funcional para gerenciamento de caminhões e controle de usuários.
 
